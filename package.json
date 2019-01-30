@@ -1,0 +1,28 @@
+{
+  "name": "messengerbot-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "local": "set NODE_ENV=local && nodemon app",
+    "expose": "start cmd /k >lt --port 8000 --subdomain messengerbot-starter && set NODE_ENV=expose &&nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stem4good/Google_Search-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stem4good/Google_Search-bot/issues"
+  },
+  "homepage": "https://github.com/stem4good/Google_Search-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "localtunnel": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
